@@ -1,0 +1,109 @@
+body {
+	background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+	margin-top: 80px;
+}
+
+#content{
+    font-size:18px; 
+    font-family:'Sylfaen';
+}
+
+#modalTrigger{
+    margin-right: 15px;
+}
+
+.logout{
+    position: relative;
+    top: -80px;
+}
+
+.btn-sign-up{
+    margin-top: 20px;
+}
+
+.interested{
+    font-size: 20px;
+    font-weight: bold
+}
+
+.modal{
+    display: none;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.heading{
+    text-align: center;
+    color: #444;
+}
+
+#signupfree{
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.modal-header, .modal-footer {
+	background-color: blueviolet;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-header h2, .modal-footer h3{
+	font-size: 150%;
+    padding: 5px;
+    color: #fff;
+    margin: 0
+}
+
+.close{
+    cursor: pointer;
+    font-size: 22px;
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    color: aliceblue;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    height: 250px;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animateup{
+    from{top:0; opacity: 1}
+    to{top:-300; opacity: 0}
+}
+
+@-webkit-keyframes animateup{
+    from{top:0; opacity: 1}
+    to{top:-300; opacity: 0}
+}
